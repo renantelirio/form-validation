@@ -1,0 +1,50 @@
+body{
+ background-image: url(images/rnt.jpg);
+ position:absolute;
+ padding: 25px;
+ background-size:cover;
+ background-position: center;
+ background-attachment: fixed;
+
+}
+.container {
+  border: black solid;
+  background-color: #bbbbbb;
+  height: 50vh;
+  right: 50px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error-message {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  button {
+    border: black solid;
+    padding: 10px 20px;
+    background-color: #dbac46;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
